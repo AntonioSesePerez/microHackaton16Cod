@@ -1,0 +1,8 @@
+name: Caller
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: 
+  push:
+  workflow_dispatch: 
+jobs:
+  build:
+    uses: AntonioSesePerez/microHackaton16WorkFlow/.github/workflows/WFCentralizado.yaml@main 
