@@ -1,1 +1,5 @@
-
+name: Test Action
+runs:
+  using: "composite"
+  steps:
+    - run: echo “Ejecutando tests ${{inputs.param1}} y ${{inputs.param2}}”
